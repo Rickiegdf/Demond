@@ -3,7 +3,7 @@ FROM alpine:latest
 ARG AUUID="26141fde-7ac0-4c83-98fa-f08dba50b4aa"
 ARG CADDYIndexPage="https://www.free-css.com/free-css-templates/page284/industrial"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
-ARG PORT=8080
+ARG PORT=80
 
 ADD etc/Caddyfile /tmp/Caddyfile
 ADD etc/xray.json /tmp/xray.json
