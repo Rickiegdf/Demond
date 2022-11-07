@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 ARG AUUID="26141fde-7ac0-4c83-98fa-f08dba50b4aa"
-ARG CADDYIndexPage="https://www.free-css.com/free-css-templates/page284/industrial"
+ARG CADDYIndexPage="https://www.free-css.com/assets/files/free-css-templates/download/page282/crism.zip"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
 ARG PORT=8080
 
